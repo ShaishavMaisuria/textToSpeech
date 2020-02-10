@@ -1,0 +1,22 @@
+Chapter 2 introduced multiagent environments, in which each agent needs to consider the
+actions of other agents and how they affect its own welfare. The unpredictability of these
+other agents can introduce contingencies into the agent’s problem-solving process, as discussed in Chapter 4. In this chapter we cover competitive environments, in which the agents’
+GAME goals are in conflict, giving rise to adversarial search problems—often known as games.
+Mathematical game theory, a branch of economics, views any multiagent environment
+as a game, provided that the impact of each agent on the others is “significant,” regardless
+of whether the agents are cooperative or competitive.1 In AI, the most common games are
+of a rather specialized kind—what game theorists call deterministic, turn-taking, two-player,
+ZERO-SUM GAMES zero-sum games of perfect information (such as chess). In our terminology, this means
+PERFECT
+INFORMATION deterministic, fully observable environments in which two agents act alternately and in which
+the utility values at the end of the game are always equal and opposite. For example, if one
+player wins a game of chess, the other player necessarily loses. It is this opposition between
+the agents’ utility functions that makes the situation adversarial.
+Games have engaged the intellectual faculties of humans—sometimes to an alarming
+degree—for as long as civilization has existed. For AI researchers, the abstract nature of
+games makes them an appealing subject for study. The state of a game is easy to represent,
+and agents are usually restricted to a small number of actions whose outcomes are defined by
+precise rules. Physical games, such as croquet and ice hockey, have much more complicated
+descriptions, a much larger range of possible actions, and rather imprecise rules defining
+the legality of actions. With the exception of robot soccer, these physical games have not
+attracted much interest in the AI community.
